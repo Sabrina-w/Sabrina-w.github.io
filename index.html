@@ -162,6 +162,87 @@
 </nav>
       <div class="body-wrap">
   
+    <article id="post-正则表达式的基本用法" class="article article-type-post" itemscope itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2015/04/10/正则表达式的基本用法/" class="article-date">
+  	<time datetime="2015-04-09T16:00:00.000Z" itemprop="datePublished">2015-04-10</time>
+</a>
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy" />
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 itemprop="name">
+      <a class="article-title" href="/2015/04/10/正则表达式的基本用法/">
+        正则表达式的基本用法
+        
+      </a>
+    </h1>
+  
+
+      </header>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+        <h1 id="RegExp对象"><a href="#RegExp对象" class="headerlink" title="RegExp对象"></a>RegExp对象</h1><pre><code>RegExp对象表示正则表达式，正则表达式是一种特殊的字符串模式，用于匹配一组字符串，就好比用模具做产品，而正则就是这个模具，定义一种规则去匹配符合规则的字符。
+</code></pre><h2 id="创建RegExp对象的方法"><a href="#创建RegExp对象的方法" class="headerlink" title="创建RegExp对象的方法"></a>创建RegExp对象的方法</h2><blockquote>
+<p>语法</p>
+</blockquote>
+<ul>
+<li>直接量语法: /pattern/atributes</li>
+<li>构造函数创建法：new RegExp(pattern,attributes)</li>
+</ul>
+<blockquote>
+<p>参数</p>
+</blockquote>
+<ul>
+<li>pattern：必须，一个字符串，规定了正则表达式的模式或其他正则表达式。</li>
+<li>attributes：可选，一个字符串，设置正则表达式的属性，备选属性有’g’,’i’,’m’。(g:执行全局匹配（查找所有匹配而非在找到第一个匹配后停止）;i:执行对大小写不敏感的匹配;m:执行多行匹配;)</li>
+</ul>
+<h2 id="正则基本语法"><a href="#正则基本语法" class="headerlink" title="正则基本语法"></a>正则基本语法</h2><blockquote>
+<p>方括号</p>
+</blockquote>
+<ul>
+<li>[abc] : 匹配方括号之间的任何字符。如：[abc]，匹配’hello’，结果是匹配不到的，但是匹配’are’,’body’,’city’,’abc’’ac’</li>
+<li>[^abc] : 匹配方括号以外的任意字符。(只要匹配的字符串中，含有不是括号中的字符，就能匹配到)</li>
+<li>[0-9] : 匹配任何从 0 至 9 的数字。</li>
+<li>[a-z] ：匹配任何从 a 至 z 的字母。</li>
+<li>[A-Z] ：匹配任何从 A 至 Z 的字母。</li>
+<li>[A-z] : 匹配任何从A至z的字母。</li>
+<li>(red|blue|green) ： 匹配任何指定的选项。</li>
+</ul>
+
+      
+    </div>
+    
+    <div class="article-info article-info-index">
+      
+      
+      
+
+      
+      <div class="clearfix"></div>
+    </div>
+      
+    
+  </div>
+  
+</article>
+
+
+
+
+
+
+
+  
     <article id="post-绑定事件的几种用法" class="article article-type-post" itemscope itemprop="blogPost">
   
     <div class="article-meta">
